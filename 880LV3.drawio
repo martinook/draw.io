@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.6.6">
+  <diagram name="第 1 页" id="cDYx2eYb2Jkc4YDQPfgD">
+    <mxGraphModel dx="810" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LZypMwD79e2iS1YmBJNk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MCU" vertex="1">
+          <mxGeometry height="70" width="80" x="190" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RFID Station chip" vertex="1">
+          <mxGeometry height="70" width="70" x="370" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-4" edge="1" parent="1" source="LZypMwD79e2iS1YmBJNk-1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LZypMwD79e2iS1YmBJNk-2" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="210" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-5" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-7" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="130" width="360" x="160" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-10" parent="1" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="20" x="200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VCC GND TXD RXD (uart ttl)" vertex="1">
+          <mxGeometry height="30" width="170" x="150" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LZypMwD79e2iS1YmBJNk-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="External Antenna" vertex="1">
+          <mxGeometry height="30" width="90" x="440" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
